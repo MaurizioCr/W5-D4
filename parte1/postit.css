@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(91, 86, 86);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 15px;
+}
+.post{
+    width: calc(100% / 4 - 40px);
+    height: 200px;
+    background-color: violet;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    box-shadow: inset 0px -15px 10px #9f9d9d;
+    transition-duration: 200ms;
+}
+.violet{
+    transform: rotate(353deg);
+}
+.yellow{
+    background-color: yellow;
+    transform: rotate(356deg);
+}
+.scritta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: greenyellow;
+    transform: rotate(-353deg);
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.post:hover{
+    transform: scale(1.2);
+    box-shadow: -10px 10px 5px black;
+}
+.green:hover{
+    box-shadow: 10px 10px 5px black;
+}
